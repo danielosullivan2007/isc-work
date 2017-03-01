@@ -1,0 +1,7 @@
+forward =[]
+backward=[]
+values =["a","b","c"]
+
+for i in range(len(values))
+    forward.append(values[i])
+    backward.insert(values[i])

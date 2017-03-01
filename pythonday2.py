@@ -78,6 +78,8 @@ def double_it(number):
 double_it("hello")
 '''
 print type(3)
+
+# for the if statement can also say if type(a) not in (int, float) or type (b) not in (int, float):
 def calc_hypo(a,b):
     if type(a) is not float and type(a) is not int:
         print "Bad argument a"
